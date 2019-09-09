@@ -8,13 +8,14 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
+// namespace think;
 
 Route::get('think', function () {
     return 'hello,ThinkPHP5!';
 });
 
 Route::get('hello/:name', 'index/hello');
+// Route::get('fetch', 'fetch');
+// Route::get('fetch/:name', 'fetch/printName');
 
-return [
-
-];
+return [];
