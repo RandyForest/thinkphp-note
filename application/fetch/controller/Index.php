@@ -4,6 +4,9 @@ namespace app\fetch\controller;
 
 use think\Controller;
 
+/**
+ * 渲染页面
+ */
 class Index extends Controller
 {
     public function index()
